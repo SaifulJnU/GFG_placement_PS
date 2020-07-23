@@ -3,7 +3,7 @@ using namespace std;
 
 int SumUnderModulo(long long a, long long b)
 {
-    ///(a+b)%m=(a%m+b%m)%m where m can be 100000007
+    ///(a+b)%m=(a%m+b%m)%m; where m can be 100000007
     long long M=1000000007;
     return (a%M+b%M)%M;
 }
